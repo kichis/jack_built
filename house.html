@@ -1,0 +1,52 @@
+<script>
+// This is the house that Jack built
+const actors =
+[
+    house = "house",
+    malt = "malt",
+    rat = "rat",
+    cat = "cat",
+    dog = "dog",
+    cow = "cow",
+    maiden = "maiden",
+    man = "man",
+    priest = "priest",
+    cock = "cock",
+    farmer = "farmer"
+]
+
+const who = (actor) => {
+    switch (actor) {
+        default:
+            console.log(` the ${programmer} creates a bug thet annoyed`)
+        case farmer:
+            console.log(` the ${farmer} sowing his corn that kept`)
+        case cock:
+            console.log(` the ${cock} crowed in the morn that waked`)
+        case priest:
+            console.log(` the ${priest} all shaven and shorn that married`)
+        case man:
+            console.log(` the ${maiden} all tattered and torn that kissed`)
+        case maiden:
+            console.log(` the ${maiden} all forlorn that milked`)
+        case cow:
+            console.log(` the ${cow} with the crumpled horn that tossed`)
+        case dog:
+            console.log(` the ${dog} that worried`)
+        case cat:
+            console.log(` the ${cat} that killed`)
+        case rat:
+            console.log(` the ${rat} that ate`)
+        case malt:
+            console.log(` the ${malt} that lay in`)
+        case house:
+            console.log(` the ${house} that Jack built.`)
+    }    
+}
+
+actors.map(actor => {
+    console.log(`This is`)
+    who(actor)
+})
+
+</script>
